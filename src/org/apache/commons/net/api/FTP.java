@@ -75,7 +75,7 @@ public class FTP {
 	
 	
 	/**
-	 * @param  FTPDirectory, LocalFilePath, LocalFileName
+	 * @param  FTPDirectory, LocalFilePath, LocalFileName; Needed to Locate the Files and Upload the File to the right Path.
 	 * @throws IOException
 	 * @method StoreFile(); Upload a Local File to the Connected FTP-Server.
 	 * @return FTP.FTPClient.storeFile(LocalFileName, new FileInputStream(new File(LocalFilePath)));
